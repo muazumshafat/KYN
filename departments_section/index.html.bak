@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KYN - Our Departments</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&amp;display=swap" rel="stylesheet"/>
+
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 flex flex-1 justify-center py-10 md:py-20">
+<div class="layout-content-container flex flex-col max-w-6xl flex-1">
+<div class="flex flex-col items-center text-center p-4">
+<h1 class="text-primary dark:text-white text-4xl md:text-5xl font-black leading-tight tracking-tighter">Our Departments</h1>
+<p class="text-text-light dark:text-text-dark/80 text-lg md:text-xl font-normal leading-normal mt-4 max-w-2xl">Dedicated to empowering Kashmiri youth across various domains through focused initiatives and support systems.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 mt-12">
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">event</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Events &amp; Organizing</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Fostering community engagement and collaboration through meticulously planned events and initiatives.</p>
+</div>
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">campaign</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Media &amp; Relations</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Managing our voice and public image, ensuring our message of empowerment reaches far and wide.</p>
+</div>
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">school</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Education</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Providing academic support, scholarships, and skill development to unlock the potential of every student.</p>
+</div>
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">volunteer_activism</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Wellness &amp; Support</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Offering mental health resources and building a strong community support system for overall well-being.</p>
+</div>
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">hub</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Tech / AI</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Promoting technological literacy and fostering innovation to prepare youth for the future of work.</p>
+</div>
+<div class="flex flex-col gap-4 bg-card-background-light dark:bg-card-background-dark p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl">design_services</span>
+<h2 class="text-primary dark:text-white text-xl font-medium leading-normal">Design</h2>
+</div>
+<p class="text-text-light dark:text-text-dark text-base font-normal leading-normal">Nurturing creative expression and developing strong visual identities for our projects and brand.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KYN - Empowering Youth, Shaping Tomorrow</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden font-display">
+<div class="layout-container flex h-full grow flex-col">
+<header class="fixed top-0 left-0 right-0 z-10 bg-white/80 dark:bg-navy/80 backdrop-blur-sm transition-colors duration-300">
+<div class="px-4 lg:px-10">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f4] dark:border-b-white/10 px-4 py-3 max-w-7xl mx-auto">
+<div class="flex items-center gap-4 text-navy dark:text-off-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">KYN</h2>
+</div>
+<nav class="hidden lg:flex flex-1 justify-end gap-8">
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Departments</a>
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Events/Projects</a>
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Join</a>
+<a class="text-navy dark:text-off-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="lg:hidden text-navy dark:text-off-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<div class="@container">
+<div class="w-full">
+<div class="flex min-h-screen flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4" data-alt="A diverse group of young people collaborating and learning together in a bright, modern space." style='background-image: linear-gradient(rgba(0, 31, 63, 0.7) 0%, rgba(0, 31, 63, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAhSb6SDFAcycFyAa92BEMw1YVDGGABOkDZ3-vHWRx9sHy7gTBR8PKoCgpIexa5JhhN0yLPHUePNGfJOv0p4lVFmFzbsi-XpEymH-n5cnghWDp2dFzNjKDKyaejbdMX8YB-I4tUZ4mylXhgRaZBL9bpt1GqbQj6IkckryIO8y0dwPJuPHrnK6cCxwuQDUHnriw0sxrrguiR3Jtqm8RyTL6gmbbjJbd6JSaOsZIjJpjA53rnENUyRozgj_j6mGOGmK4WW7FOjZfZtoN");'>
+<div class="flex flex-col gap-4 text-center max-w-4xl mx-auto animate-[fade-in_1s_ease-in-out]">
+<h1 class="text-off-white text-5xl font-black leading-tight tracking-tight md:text-7xl">
+                  Empowering Youth, Shaping Tomorrow
+                </h1>
+<h2 class="text-off-white/80 text-lg font-normal leading-normal md:text-xl">
+                  Join a movement of change in Kashmir.
+                </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-navy text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 animate-[fade-in_1s_ease-in-out_0.5s] fill-mode-backwards">
+<span class="truncate">Join the Movement</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Join KYN</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
+
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-10 md:py-20">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex flex-col gap-8 w-full items-center">
+<!-- Heading -->
+<div class="flex flex-col gap-3 text-center max-w-2xl">
+<p class="text-primary dark:text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">Become Part of KYN</p>
+<p class="text-text-light dark:text-text-dark text-base md:text-lg font-normal leading-normal">We welcome passionate youth — apply to join as a volunteer, contributor, or member.</p>
+</div>
+<!-- Form Container -->
+<div class="bg-white dark:bg-background-dark p-6 md:p-10 rounded-xl shadow-sm border border-border-light dark:border-border-dark w-full max-w-3xl">
+<form class="flex flex-col gap-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Full Name -->
+<label class="flex flex-col flex-1">
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Full Name</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-light dark:text-white focus:outline-0 focus:ring-2 focus:ring-accent border border-border-light dark:border-border-dark bg-background-light dark:bg-[#1A2830] h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal" placeholder="Your full name" value=""/>
+</label>
+<!-- Email Address -->
+<label class="flex flex-col flex-1">
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Email Address</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-light dark:text-white focus:outline-0 focus:ring-2 focus:ring-accent border border-border-light dark:border-border-dark bg-background-light dark:bg-[#1A2830] h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal" placeholder="your.email@example.com" value=""/>
+</label>
+</div>
+<!-- Interest Dropdown -->
+<label class="flex flex-col w-full">
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">I'm interested in...</p>
+<div class="relative">
+<select class="form-select appearance-none flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-light dark:text-white focus:outline-0 focus:ring-2 focus:ring-accent border border-border-light dark:border-border-dark bg-background-light dark:bg-[#1A2830] h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal">
+<option>Select an area of interest</option>
+<option value="Education">Education</option>
+<option value="Community Events">Community Events</option>
+<option value="Mental Wellness">Mental Wellness</option>
+<option value="Leadership Programs">Leadership Programs</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">expand_more</span>
+</div>
+</label>
+<!-- About Yourself Textarea -->
+<label class="flex flex-col w-full">
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal pb-2">Tell us a bit about yourself</p>
+<textarea class="form-textarea flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-light dark:text-white focus:outline-0 focus:ring-2 focus:ring-accent border border-border-light dark:border-border-dark bg-background-light dark:bg-[#1A2830] min-h-36 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal" placeholder="Share a few words about your passion and what you hope to contribute."></textarea>
+</label>
+<!-- Submit Button -->
+<div class="flex pt-4 justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-8 flex-1 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors duration-300">
+<span class="truncate">Apply Now</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

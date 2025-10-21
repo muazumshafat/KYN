@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KYN - Events &amp; Projects</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
+
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-10 md:py-20">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex flex-wrap justify-between gap-3 p-4">
+<div class="flex flex-col gap-3">
+<p class="text-navy dark:text-off-white text-4xl font-black leading-tight tracking-[-0.033em]">Our Work in Action</p>
+<p class="text-[#617c89] dark:text-soft-grey text-base font-normal leading-normal">Explore our latest events, projects, and impact stories.</p>
+</div>
+</div>
+<div class="pb-3">
+<div class="flex flex-wrap border-b border-soft-grey dark:border-soft-grey/20 px-4 gap-8">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-navy dark:border-b-teal text-navy dark:text-off-white pb-[13px] pt-4" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">All</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#617c89] dark:text-soft-grey pb-[13px] pt-4 hover:text-navy dark:hover:text-teal" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Community Events</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#617c89] dark:text-soft-grey pb-[13px] pt-4 hover:text-navy dark:hover:text-teal" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Educational Workshops</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#617c89] dark:text-soft-grey pb-[13px] pt-4 hover:text-navy dark:hover:text-teal" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Leadership Programs</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#617c89] dark:text-soft-grey pb-[13px] pt-4 hover:text-navy dark:hover:text-teal" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Mental Wellness Initiatives</p>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-8 p-4 mt-8">
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="Photo from a past leadership workshop" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAiNUhxWVdTxDtOiVLzyfQxA01UFlM-YdiCBGNiSuBlqo7PwUOVkZhmYWlsu9EQb796F1Vev84Jlf1Al5lXXiKIw-RVKvcUJs3W3-Cnc8OZpZwkfddwRG7zQs1q2CHufdYUx6MnuBTs3OIwAS5nfvV1RNcZWvCshXBfTsfAMOcW_J25GMR2kFJi-l2oPgrj7HBKWiZXVVpgJGODsweWxu5rs9F2VrYnLm_X-KK1b_IgY17xmYTlHGkvx1quaq_5ShkQYE0n2oNzmQoc");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Leadership</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Youth Leadership Summit 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">October 15, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">A short blurb about the summit's goals and outcomes.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="An interactive session on managing stress and anxiety." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBt8JdfkK1yn3iOyB_fAx5vNxNAz57_NEw-JkI91tmIFucxIi08XBZ_1Z1BsIMSDQFjuzT3ukNZxSglBf91dgQVlXhqvbLeFG3Te25ieOTk5dheROyGWCzOKggYwizthJLEkMRsox9iUhisK2lbAusu4kENWu7giQr9AAhFPRSZF4kRWusUHGJNfHhp2qVvXx3KzqyIEchGGdxKsDq6cM4IbMOHMilltufH8jcAOvoDON6zu0dG33ktoalxN9Mb_6TUtlCDPvgwmguC");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Wellness</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Mental Wellness Workshop</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">November 5, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">An interactive session on managing stress and anxiety.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="A collaborative art installation to foster community spirit." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVliiqhV6DdIAJ0zVIm2KFKYFWQ5LixG5ORfnkt9OLOmMFwwo142wIYbF5puJgpL80YmSc0z8V_aM7IW-jF8py3mK7vnDt7JzwxIpzXTHC5St-2Otr-6-ypPBm9upj0EdsZ1lb5oBjyx__AiOUI4Zn44SXw8xc1BthUyCkMaBxgcOV5VNngKPK0d3ZCjMphGRDYcNtYvcMX_OdKGI3LdluIKY3RjmZ-oSnYk9WC9wVXTH7K8URIWhOZuaMj9iAzEDPFX7GqVyT4a8-");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Community</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Community Art Project</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">November 20, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">A collaborative art installation to foster community spirit.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="An intensive program on coding and digital skills." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA8Fa_Y9O--Ft2bG5llCzecRDE7XybHIlJivAxdfUAmATGX3PLa5KB49vPHbMBw3xThvMiY6-G4FGt6eLb2rtySPbS4U4iLL5DrjAFT0Wfnu8p60ZevnB4f_20EmdCwpQLTppwLopvleVpJVk9z8Js25cPOlYQ-QNw0YNVqMqKvY_8CJFHhPdS6cGuBvkxKlteCKuov3JQ2OWpYQj4HnOATOBsubo3yD-nyp6vwt1OfOsuerxIknsyCgp0k1OvvqYRuQ5X2uDMU1ZT1");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Education</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Educational Bootcamp</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">December 1, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">An intensive program on coding and digital skills.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="Connecting students with professionals from various fields." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBejhLN3SIHn1UFGwIvoZ-5yntgX6lNFqjpg6vcYnp2xD8lFEpj-kSUE-KaI31oux3A8FOD8vlET7ppnAHkgbIBCh8v_omf9rRfxPkq5C4NA7oOkca_IyjUXebCjHFjABaE1p7Y7DJDTVcB6ut6kA_06fAuPSk1vrkZdX-P2ggVwkqOTY71iezxDC2qVwIi7ebA4jBrJHPW_acTsUkmznuzAYiNYnGc846c6EaXM8wPx_b94Bhz2JFYyQGG5eJCpHZfFqu5X4yh1m40");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Career</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Career Counseling Fair</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">December 10, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">Connecting students with professionals from various fields.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col bg-white dark:bg-navy rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+<div class="w-full h-48 bg-center bg-no-repeat bg-cover" data-alt="A campaign to promote sustainable practices among youth." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-M6yBo0U-DwsJ6qkULcVS-YIsg-eE2crwNcov8GsndZ_pVOsnHIX_Q5KHwiXjGEDMSVZL2yITjFyHX1nmLdtTeSIHvVhnor-MMeZhPCFksT604qfmVW4SelQYy8MZVn8rW6wxwK3G7FH9c3W0z94Azmi_57OEHnDg0eZALDV67YlKbPzYH1eQBAg3-hR3sJkQLyznQgiSSy6a8bMloNcfV8cI-geWcVPssuA9JD9F9CNI9AZmsoPkX5nyY6aS99dq2AltYhkyPI-L");'></div>
+<div class="p-6 flex flex-col flex-grow">
+<span class="inline-block bg-primary/20 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3 w-fit">Environment</span>
+<p class="text-navy dark:text-off-white text-lg font-bold leading-normal mb-2">Environmental Awareness Drive</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-1">December 22, 2023</p>
+<p class="text-[#617c89] dark:text-soft-grey text-sm font-normal leading-normal mb-6 flex-grow">A campaign to promote sustainable practices among youth.</p>
+<a class="mt-auto text-primary dark:text-teal font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all duration-300" href="#">
+                                    Learn More
+                                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
